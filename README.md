@@ -14,10 +14,6 @@
 - PayPal / credit card integration
 - Database seeder (products & users)
 
-## Note on Issues
-Please do not post issues here that are related to your own code when taking the course. Add those in the Udemy Q/A. If you clone THIS repo and there are issues, then you can submit
-
-## Usage
 
 ### Env Variables
 
@@ -64,19 +60,3 @@ You can use the following commands to seed the database with some sample users a
 ```
 # Import data
 npm run data:import
-
-# Destroy data
-npm run data:destroy
-```
-
-```
-Sample User Logins
-
-admin@example.com (Admin)
-123456
-
-john@example.com (Customer)
-123456
-
-jane@example.com (Customer)
-123456
